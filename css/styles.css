@@ -151,7 +151,7 @@ footer {
 .nav-footer {
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    align-items: center;
 }
 
 .hide-320 {
