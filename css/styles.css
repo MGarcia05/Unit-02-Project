@@ -8,6 +8,12 @@
 
 /* Main styles for body, headings, p, ul & li, links, and imgs */
 
+/* ~ Padding fix for navigation ~ */
+
+ul {  padding-left: 0; }
+
+/* ~ Padding fix for navigation ~ */
+
 body {
     font: 300 100%/1 'Josefin Sans', sans-serif;
     background-color: thistle;
@@ -152,7 +158,7 @@ footer {
 }
 
 footer a {
-    font-size: 1.5rem;
+    font-size: .9rem;
     font-weight: 700;
     color: black;
 }
