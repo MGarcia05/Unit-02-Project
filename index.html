@@ -1,0 +1,120 @@
+<!-- doctype, lang, viewport meta tag -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile-first Responsive Layout</title>
+
+<!-- Linking to CSS files & Google Fonts & reset file -->
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Josefin+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<!-- Nav section linking to divs -->
+
+<body>
+  <nav class="navigation">
+    <ul class="nav">
+      <li class="student-name">Melissa Garcia</li>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#portfolio">PORTFOLIO</a></li>
+      <li><a href="#skills">SKILLS</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+
+<!-- Header with profile pic and info -->
+
+  <header>
+    <img src="images/responsive-layout-profile.png" alt="Profile image" class="profile-image">
+        <p>Hi! I'm a Front-End Developer who loves responsive design and CSS. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+    </header>
+
+  <!-- Main Div with Section 1 with all articles + images for each project -->
+
+  <div class="main-div">
+        <section>
+            <h2 id="portfolio">PORTFOLIO</h2>
+            <article class="article">
+                <img src="images/portfolio-1.png" alt="Image of marketing page" class="portfolio-image">
+                <h3>Marketing Page</h3>
+                <p>This project shows the front page of a marketing website meant for a specific business I'am interested in.</p>
+            </article>
+            <article class="article">
+                <img src="images/portfolio-2.png" alt="Image of search project" class="portfolio-image">
+                <h3>Search Page</h3>
+                <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+            </article>
+            <article class="article">
+                <img src="images/portfolio-3.png" alt="Image of travel app" class="portfolio-image">
+                <h3>Travel App</h3>
+                <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+            </article>
+            <article class="article">
+                <img src="images/portfolio-4.png" alt="Image of favorite spots project" class="portfolio-image">
+                <h3>Map of Favorite Spots</h3>
+                <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+            </article>
+            <article class="article">
+                <img src="images/portfolio-5.png" alt="Image of photo gallery project" class="portfolio-image">
+                <h3>Photo Gallery</h3>
+                <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+            </article>
+            <article class="article">
+                <img src="images/portfolio-6.png" alt="Image of calculator project" class="portfolio-image">
+                <h3>Calculator</h3>
+                <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+            </article>
+        </section>
+
+                                      <!-- Extra section for possible Exceeds Expectations -->
+        <section>
+            <h2 id="skills">SKILLS</h2>
+            <article class="article">
+                <img src="images/communicate.jpg" alt="Cartoon image of people talking" class="portfolio-image">
+                <h3>Teamwork</h3>
+                <p>It makes the dream work.  Let's work together.</p>
+            </article>
+            <article class="article">
+                <img src="images/collaborate.jpg" alt="Cartoon image of person working with machine" class="portfolio-image">
+                <h3>Effective</h3>
+                <p>We can work harder and smarter by automating basic tasks and focusing on what's important.</p>
+            </article>
+        </section>
+    </div>
+
+
+  <!-- Section 2 with Contact-Info div -->
+
+   <div class="contact-info">
+        <h2 id="contact">CONTACT</h2>
+        <p>If you're interested in chating or wnat more information about what i've been working on, I'd love to hear from you!</p>
+        <ul id="contacts">
+          <li>Phone&nbsp;&nbsp;<strong>+1 (111) 555-1234</strong></li>
+          <li>Email&nbsp;&nbsp;<strong><a href="mailto:email@yoursite.com?subject=Contact%20Request">email@yoursite.com</a></strong></li>
+        </ul>
+   </div>
+
+
+  <!-- Footer -->
+
+  <footer>
+    <nav class="nav-footer">
+      <ul class="nav-footer">
+          <li class="student-name-footer"><a href="#">Melissa Garcia</a></li>
+          <li class="hide-768"><a href="#">BACK TO TOP</a></li>
+          <li class="hide-320"><a href="#">HOME</a></li>
+          <li class="hide-320"><a href="#portfolio">PORTFOLIO</a></li>
+          <li class="hide-320"><a href="#skills">SKILLS</a></li>
+          <li class="hide-320"><a href="#contact">CONTACT</a></li>
+      </ul>
+   </nav>
+  </footer>
+
+</body>
+
+</html>
